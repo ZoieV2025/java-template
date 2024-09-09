@@ -1,4 +1,4 @@
-# Java template for CS2 projects
+# Java template for CS2
 
 ### 📖 [JavaDocs Course Website](https://coderina.dev/javadocs/)
 
