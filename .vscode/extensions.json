@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"vscjava.vscode-java-pack",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"fabiospampinato.vscode-monokai-night",
+		"streetsidesoftware.code-spell-checker"
+	],
+
+}
