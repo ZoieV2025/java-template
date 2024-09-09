@@ -1,10 +1,8 @@
-# Java template for CS2
+# Java Template for CS2
 
-### 📖 [JavaDocs Course Website](https://coderina.dev/javadocs/)
+This repository provides a simple **template** with `Java` starter code. You can create your own copy by clicking `Fork` whenever you need to start a new Java program. For **unit notes** and **helpful resources**, refer to our course website: 📖 [JavaDocs](https://coderina.dev/javadocs/)
 
-This repository provides a simple **template** with `Java` starter code.
-
-> 🚨 _DO NOT modify the following files:_ `.devcontainer`, `.vscode`
+> ⚠️ _DO NOT modify the following files:_ `.devcontainer`, `.vscode`
 
 ### 💻 Codespaces Instructions
 1. Click the green `<> Code` button in the top right area above the files.
