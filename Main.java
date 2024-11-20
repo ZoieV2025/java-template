@@ -30,7 +30,7 @@ public class Main {
       // GUESSING GAME
       Scanner scan = new Scanner(System.in);
       // Choose a random number from 0-100
-      int num = (int) (Math.random() * 100);
+      int num = (int) (Math.random() * 101);
       // Ask the user to guess a number from 0 to 100
       System.out.println("Guess a number from 0 to 100: ");
       // Gret the first gues using scan.nextInt();
