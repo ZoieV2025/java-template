@@ -49,6 +49,11 @@ public class Main {
          System.out.println(i + " bottles of coke");
          System.out.println("Take one down, pass it around");
          System.out.println((i - 1) + " bottles of coke on the wall");
+         // check if on the last bottle (final itteration)
+         if(i == 1) {
+            System.out.println("THey're all gone...");
+         }
+
       }
 
 
