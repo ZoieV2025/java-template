@@ -44,7 +44,7 @@ public class Main {
 
       // BACKWARDS looping
       // You must change all 3 loops control parts!!!
-      for (int i = 12; i >= 8; i--){
+      for (int i = 12; i >= 1; i--){
          System.out.println(i + " bottles of coke on the wall");
          System.out.println(i + " bottles of coke");
          System.out.println("Take one down, pass it around");
