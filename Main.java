@@ -23,9 +23,39 @@ public class Main {
       while(count <= 10){
          // Execute statements in the loop body
          System.out.println(count);
-         // 3. CHANGE your loop coontrol variable
+         // 3. CHANGyhE your loop coontrol variable
          count++; // equivalent to count = count + 1;
       }
+
+      // FOR LOOPS are "shortcuts" for looping when you know 
+      // how many times the loop should run
+      // all loop CONTROL info is in the header
+      for (int i = 0; i < 13; i++) {
+         // LOOP BODY (proccess to be repeated)
+         System.out.println("For loop #1, i = " + 1);
+      }
+
+      // You can change the variable by anything!
+      // What does this loop do? --> counting even numbers
+      // How many times does it loop? -->  8
+      for (int i = 8; i <= 22; i+=2){
+         System.out.println("For loop #2, i = " + i);
+      }
+
+      // BACKWARDS looping
+      // You must change all 3 loops control parts!!!
+      for (int i = 12; i >= 8; i--){
+         System.out.println(i + " bottles of coke on the wall");
+         System.out.println(i + " bottles of coke");
+         System.out.println("Take one down, pass it around");
+         System.out.println((i - 1) + " bottles of coke on the wall");
+      }
+
+
+
+
+
+
 
       // GUESSING GAME
       Scanner scan = new Scanner(System.in);
