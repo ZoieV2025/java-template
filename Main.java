@@ -23,7 +23,7 @@ public class Main {
       while(count <= 10){
          // Execute statements in the loop body
          System.out.println(count);
-         // 3. CHANGyhE your loop coontrol variable
+         // 3. CHANGE your loop coontrol variable
          count++; // equivalent to count = count + 1;
       }
 
@@ -51,11 +51,30 @@ public class Main {
          System.out.println((i - 1) + " bottles of coke on the wall");
          // check if on the last bottle (final itteration)
          if(i == 1) {
-            System.out.println("THey're all gone...");
+            System.out.println("They're all gone...");
          }
 
       }
 
+         // *** LOOPS AND STRINGS ***
+         // While loop --> find & replace characters
+         String  s = "Jackson dropped all of the chargers!";
+         int i = 0; // loop counter
+         // test condition: while 'a' is still in String s
+         while (s.indexOf("a") >= 0) {
+            // get the first index of a
+            i = s.indexOf("a");
+            // show character at that index
+            String letter = s.substring(i, i + 1);
+            System.out.println("There is an " + letter + " at index " + i);
+            // get the first part of the string
+            String firstPart = s.substring(0, i);
+            // get the last part of the string
+            String lastPart = s.substring(i+1, s.length());
+            // replace character in s
+            s = firstPart + "@" + lastPart;
+         }
+         System.out.println("String after find & replace: " + s);
 
 
 
